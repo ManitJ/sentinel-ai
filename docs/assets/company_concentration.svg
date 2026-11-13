@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1520" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<title id="title">Credit-reporting complaints are increasingly concentrated among the largest companies</title>
+<desc id="desc">Two panels, January 2025 to October 2026. Top: top-1 and top-3 company shares of monthly CFPB credit-reporting complaints. Bottom: complaint concentration index (HHI). Jan 2025: top-1 31.94%, top-3 93.77%, HHI 2,933; Feb 2025: top-1 32.78%, top-3 93.75%, HHI 2,939; Mar 2025: top-1 33.7%, top-3 94.53%, HHI 2,999; Apr 2025: top-1 34.0%, top-3 95.16%, HHI 3,040; May 2025: top-1 34.64%, top-3 95.13%, HHI 3,032; Jun 2025: top-1 35.57%, top-3 95.05%, HHI 3,038; Jul 2025: top-1 35.71%, top-3 95.01%, HHI 3,037; Aug 2025: top-1 34.73%, top-3 95.77%, HHI 3,093; Sep 2025: top-1 34.78%, top-3 95.8%, HHI 3,093; Oct 2025: top-1 35.14%, top-3 95.96%, HHI 3,104; Nov 2025: top-1 34.83%, top-3 95.6%, HHI 3,074; Dec 2025: top-1 34.61%, top-3 95.33%, HHI 3,054; Jan 2026: top-1 33.82%, top-3 94.79%, HHI 3,006; Feb 2026: top-1 34.4%, top-3 94.32%, HHI 2,981; Mar 2026: top-1 35.32%, top-3 96.0%, HHI 3,089; Apr 2026: top-1 36.52%, top-3 96.07%, HHI 3,107; May 2026: top-1 36.49%, top-3 96.31%, HHI 3,122; Jun 2026: top-1 36.22%, top-3 96.88%, HHI 3,152; Jul 2026: top-1 35.66%, top-3 97.01%, HHI 3,154; Aug 2026: top-1 35.51%, top-3 97.11%, HHI 3,159; Sep 2026: top-1 34.52%, top-3 97.25%, HHI 3,160; Oct 2026: top-1 36.77%, top-3 97.68%, HHI 3,219.</desc>
+<rect width="1200" height="760" fill="#fcfcfb"/>
+<text x="40.0" y="52.0" font-size="24" fill="#0b0b0b" text-anchor="start" font-weight="600">Credit-reporting complaints are increasingly concentrated among the largest companies</text>
+<text x="40.0" y="80.0" font-size="15" fill="#52514e" text-anchor="start" font-weight="normal">Share of monthly CFPB credit-reporting complaints received by the largest companies, January 2025 – October 2026 (exact counts)</text>
+<text x="40.0" y="134.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">Share of monthly complaints</text>
+<line x1="92" y1="380.0" x2="1030" y2="380.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="384.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">0%</text>
+<line x1="92" y1="325.0" x2="1030" y2="325.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="329.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">25%</text>
+<line x1="92" y1="270.0" x2="1030" y2="270.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="274.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">50%</text>
+<line x1="92" y1="215.0" x2="1030" y2="215.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="219.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">75%</text>
+<line x1="92" y1="160.0" x2="1030" y2="160.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="164.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">100%</text>
+<polyline points="92.0,173.7 136.7,173.8 181.3,172.0 226.0,170.6 270.7,170.7 315.3,170.9 360.0,171.0 404.7,169.3 449.3,169.2 494.0,168.9 538.7,169.7 583.3,170.3 628.0,171.5 672.7,172.5 717.3,168.8 762.0,168.6 806.7,168.1 851.3,166.9 896.0,166.6 940.7,166.4 985.3,166.1 1030.0,165.1" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92.0" cy="173.7" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-01" data-value="93.77"/>
+<circle cx="136.7" cy="173.8" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-02" data-value="93.75"/>
+<circle cx="181.3" cy="172.0" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-03" data-value="94.53"/>
+<circle cx="226.0" cy="170.6" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-04" data-value="95.16"/>
+<circle cx="270.7" cy="170.7" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-05" data-value="95.13"/>
+<circle cx="315.3" cy="170.9" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-06" data-value="95.05"/>
+<circle cx="360.0" cy="171.0" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-07" data-value="95.01"/>
+<circle cx="404.7" cy="169.3" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-08" data-value="95.77"/>
+<circle cx="449.3" cy="169.2" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-09" data-value="95.8"/>
+<circle cx="494.0" cy="168.9" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-10" data-value="95.96"/>
+<circle cx="538.7" cy="169.7" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-11" data-value="95.6"/>
+<circle cx="583.3" cy="170.3" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2025-12" data-value="95.33"/>
+<circle cx="628.0" cy="171.5" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-01" data-value="94.79"/>
+<circle cx="672.7" cy="172.5" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-02" data-value="94.32"/>
+<circle cx="717.3" cy="168.8" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-03" data-value="96.0"/>
+<circle cx="762.0" cy="168.6" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-04" data-value="96.07"/>
+<circle cx="806.7" cy="168.1" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-05" data-value="96.31"/>
+<circle cx="851.3" cy="166.9" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-06" data-value="96.88"/>
+<circle cx="896.0" cy="166.6" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-07" data-value="97.01"/>
+<circle cx="940.7" cy="166.4" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-08" data-value="97.11"/>
+<circle cx="985.3" cy="166.1" r="3.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-09" data-value="97.25"/>
+<circle cx="1030.0" cy="165.1" r="6" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-series="top3" data-month="2026-10" data-value="97.68"/>
+<polyline points="92.0,309.7 136.7,307.9 181.3,305.9 226.0,305.2 270.7,303.8 315.3,301.7 360.0,301.4 404.7,303.6 449.3,303.5 494.0,302.7 538.7,303.4 583.3,303.9 628.0,305.6 672.7,304.3 717.3,302.3 762.0,299.7 806.7,299.7 851.3,300.3 896.0,301.5 940.7,301.9 985.3,304.1 1030.0,299.1" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92.0" cy="309.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-01" data-value="31.94"/>
+<circle cx="136.7" cy="307.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-02" data-value="32.78"/>
+<circle cx="181.3" cy="305.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-03" data-value="33.7"/>
+<circle cx="226.0" cy="305.2" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-04" data-value="34.0"/>
+<circle cx="270.7" cy="303.8" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-05" data-value="34.64"/>
+<circle cx="315.3" cy="301.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-06" data-value="35.57"/>
+<circle cx="360.0" cy="301.4" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-07" data-value="35.71"/>
+<circle cx="404.7" cy="303.6" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-08" data-value="34.73"/>
+<circle cx="449.3" cy="303.5" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-09" data-value="34.78"/>
+<circle cx="494.0" cy="302.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-10" data-value="35.14"/>
+<circle cx="538.7" cy="303.4" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-11" data-value="34.83"/>
+<circle cx="583.3" cy="303.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2025-12" data-value="34.61"/>
+<circle cx="628.0" cy="305.6" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-01" data-value="33.82"/>
+<circle cx="672.7" cy="304.3" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-02" data-value="34.4"/>
+<circle cx="717.3" cy="302.3" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-03" data-value="35.32"/>
+<circle cx="762.0" cy="299.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-04" data-value="36.52"/>
+<circle cx="806.7" cy="299.7" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-05" data-value="36.49"/>
+<circle cx="851.3" cy="300.3" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-06" data-value="36.22"/>
+<circle cx="896.0" cy="301.5" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-07" data-value="35.66"/>
+<circle cx="940.7" cy="301.9" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-08" data-value="35.51"/>
+<circle cx="985.3" cy="304.1" r="3.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-09" data-value="34.52"/>
+<circle cx="1030.0" cy="299.1" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-series="top1" data-month="2026-10" data-value="36.77"/>
+<text x="92.0" y="191.7" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">93.77%</text>
+<g data-annotation="top3_complaint_pct" data-month="2026-10" data-value="97.68">
+<text x="1044.0" y="162.1" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Top 3: 97.68%</text>
+<text x="1044.0" y="178.1" font-size="11" fill="#898781" text-anchor="start" font-weight="normal">Oct 2026</text>
+<text x="1044.0" y="193.1" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">+3.91 pp vs Jan 2025</text>
+</g>
+<text x="92.0" y="299.7" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">31.94%</text>
+<g data-annotation="top1_complaint_pct" data-month="2026-10" data-value="36.77">
+<text x="1044.0" y="296.1" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Top 1: 36.77%</text>
+<text x="1044.0" y="312.1" font-size="11" fill="#898781" text-anchor="start" font-weight="normal">Oct 2026</text>
+<text x="1044.0" y="327.1" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">+4.83 pp vs Jan 2025</text>
+</g>
+<line x1="106" y1="229.0" x2="128" y2="229.0" stroke="#2a78d6" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="117" cy="229.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="136.0" y="233.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="normal">Top 3 companies combined</text>
+<line x1="326" y1="229.0" x2="348" y2="229.0" stroke="#eb6834" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="337" cy="229.0" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="356.0" y="233.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="normal">Largest company</text>
+<text x="40.0" y="444.0" font-size="14" fill="#0b0b0b" text-anchor="start" font-weight="600">Complaint concentration index (HHI)</text>
+<text x="330.0" y="444.0" font-size="12" fill="#898781" text-anchor="start" font-weight="normal">0–10,000 scale; axis starts at 2,800</text>
+<line x1="92" y1="600.0" x2="1030" y2="600.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="604.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">2,800</text>
+<line x1="92" y1="574.0" x2="1030" y2="574.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="578.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">2,900</text>
+<line x1="92" y1="548.0" x2="1030" y2="548.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="552.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">3,000</text>
+<line x1="92" y1="522.0" x2="1030" y2="522.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="526.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">3,100</text>
+<line x1="92" y1="496.0" x2="1030" y2="496.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="500.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">3,200</text>
+<line x1="92" y1="470.0" x2="1030" y2="470.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="474.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">3,300</text>
+<polyline points="92.0,565.4 136.7,563.9 181.3,548.3 226.0,537.6 270.7,539.7 315.3,538.1 360.0,538.4 404.7,523.8 449.3,523.8 494.0,521.0 538.7,528.8 583.3,534.0 628.0,546.4 672.7,552.9 717.3,524.9 762.0,520.2 806.7,516.3 851.3,508.5 896.0,508.0 940.7,506.7 985.3,506.4 1030.0,491.1" fill="none" stroke="#184f95" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92.0" cy="565.4" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-01" data-value="2933.0"/>
+<circle cx="136.7" cy="563.9" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-02" data-value="2939.0"/>
+<circle cx="181.3" cy="548.3" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-03" data-value="2999.0"/>
+<circle cx="226.0" cy="537.6" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-04" data-value="3040.0"/>
+<circle cx="270.7" cy="539.7" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-05" data-value="3032.0"/>
+<circle cx="315.3" cy="538.1" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-06" data-value="3038.0"/>
+<circle cx="360.0" cy="538.4" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-07" data-value="3037.0"/>
+<circle cx="404.7" cy="523.8" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-08" data-value="3093.0"/>
+<circle cx="449.3" cy="523.8" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-09" data-value="3093.0"/>
+<circle cx="494.0" cy="521.0" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-10" data-value="3104.0"/>
+<circle cx="538.7" cy="528.8" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-11" data-value="3074.0"/>
+<circle cx="583.3" cy="534.0" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2025-12" data-value="3054.0"/>
+<circle cx="628.0" cy="546.4" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-01" data-value="3006.0"/>
+<circle cx="672.7" cy="552.9" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-02" data-value="2981.0"/>
+<circle cx="717.3" cy="524.9" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-03" data-value="3089.0"/>
+<circle cx="762.0" cy="520.2" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-04" data-value="3107.0"/>
+<circle cx="806.7" cy="516.3" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-05" data-value="3122.0"/>
+<circle cx="851.3" cy="508.5" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-06" data-value="3152.0"/>
+<circle cx="896.0" cy="508.0" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-07" data-value="3154.0"/>
+<circle cx="940.7" cy="506.7" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-08" data-value="3159.0"/>
+<circle cx="985.3" cy="506.4" r="3.5" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-09" data-value="3160.0"/>
+<circle cx="1030.0" cy="491.1" r="6" fill="#184f95" stroke="#fcfcfb" stroke-width="2" data-series="hhi" data-month="2026-10" data-value="3219.0"/>
+<text x="92.0" y="555.4" font-size="12" fill="#52514e" text-anchor="start" font-weight="normal">2,933</text>
+<g data-annotation="complaint_concentration_hhi" data-month="2026-10" data-value="3219.0">
+<text x="1044.0" y="488.1" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">HHI: 3,219</text>
+<text x="1044.0" y="504.1" font-size="11" fill="#898781" text-anchor="start" font-weight="normal">Oct 2026</text>
+<text x="1044.0" y="519.1" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">+286 vs Jan 2025</text>
+</g>
+<text x="92.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jan</text>
+<text x="136.7" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Feb</text>
+<text x="181.3" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Mar</text>
+<text x="226.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Apr</text>
+<text x="270.7" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">May</text>
+<text x="315.3" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jun</text>
+<text x="360.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jul</text>
+<text x="404.7" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Aug</text>
+<text x="449.3" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Sep</text>
+<text x="494.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Oct</text>
+<text x="538.7" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Nov</text>
+<text x="583.3" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Dec</text>
+<text x="628.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jan</text>
+<text x="672.7" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Feb</text>
+<text x="717.3" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Mar</text>
+<text x="762.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Apr</text>
+<text x="806.7" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">May</text>
+<text x="851.3" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jun</text>
+<text x="896.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jul</text>
+<text x="940.7" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Aug</text>
+<text x="985.3" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Sep</text>
+<text x="1030.0" y="622.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Oct</text>
+<line x1="84.0" y1="634" x2="591.3" y2="634" stroke="#898781" stroke-width="1.5"/>
+<text x="337.7" y="652.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="600">2025</text>
+<line x1="620.0" y1="634" x2="1038.0" y2="634" stroke="#898781" stroke-width="1.5"/>
+<text x="829.0" y="652.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="600">2026</text>
+<text x="40.0" y="678.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">These figures measure how concentrated CFPB complaints are among companies. They are NOT company market share or a measure of industry competition,</text>
+<text x="40.0" y="694.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">and complaint counts are not adjusted for company size. Largest company = the company with the most complaints in each month (it can differ by month).</text>
+<text x="40.0" y="710.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">HHI = 10,000 × the sum of every company's squared share of the month's complaints. Recent months may be revised by later CFPB updates.</text>
+<text x="40.0" y="736.0" font-size="11" fill="#898781" text-anchor="start" font-weight="normal">Source: CFPB Consumer Complaint Database (credit reporting), exact monthly counts via Sentinel AI query Q2.2 (sql/02_company_benchmarking.sql). Data snapshot: November 12, 2026.</text>
+</svg>

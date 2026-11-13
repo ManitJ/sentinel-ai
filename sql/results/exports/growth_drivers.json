@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-11-13T16:32:00.676896+00:00",
+  "summary": {
+    "PASS": 2,
+    "FAIL": 0,
+    "NOT RUN": 15
+  },
+  "queries": [
+    {
+      "id": "Q2.1",
+      "file": "02_company_benchmarking.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q2.2",
+      "file": "02_company_benchmarking.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q2.3",
+      "file": "02_company_benchmarking.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q2.4",
+      "file": "02_company_benchmarking.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.1",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.2",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.3",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.4",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q4.1",
+      "file": "04_geographic_distribution.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q4.2",
+      "file": "04_geographic_distribution.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q4.3",
+      "file": "04_geographic_distribution.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q5.1",
+      "file": "05_growth_drivers.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q5.2",
+      "file": "05_growth_drivers.sql",
+      "status": "PASS",
+      "row_count": 15,
+      "columns": [
+        "company",
+        "prior_complaints",
+        "current_complaints",
+        "net_change_complaints",
+        "pct_growth",
+        "contribution_to_net_change_pct"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 15,
+          "actual": 15,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "company": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+          "prior_complaints": 1272491,
+          "current_complaints": 1997612,
+          "net_change_complaints": 725121,
+          "pct_growth": 57.0,
+          "contribution_to_net_change_pct": 40.67
+        },
+        {
+          "company": "Experian Information Solutions Inc.",
+          "prior_complaints": 1110660,
+          "current_complaints": 1767045,
+          "net_change_complaints": 656385,
+          "pct_growth": 59.1,
+          "contribution_to_net_change_pct": 36.81
+        },
+        {
+          "company": "EQUIFAX, INC.",
+          "prior_complaints": 1331278,
+          "current_complaints": 1723795,
+          "net_change_complaints": 392517,
+          "pct_growth": 29.5,
+          "contribution_to_net_change_pct": 22.01
+        },
+        {
+          "company": "LEXISNEXIS",
+          "prior_complaints": 15179,
+          "current_complaints": 32680,
+          "net_change_complaints": 17501,
+          "pct_growth": 115.3,
+          "contribution_to_net_change_pct": 0.98
+        },
+        {
+          "company": "CBC Companies, Inc.",
+          "prior_complaints": 26109,
+          "current_complaints": 18538,
+          "net_change_complaints": -7571,
+          "pct_growth": -29.0,
+          "contribution_to_net_change_pct": -0.42
+        },
+        {
+          "company": "DISCOVER BANK",
+          "prior_complaints": 3371,
+          "current_complaints": 652,
+          "net_change_complaints": -2719,
+          "pct_growth": -80.7,
+          "contribution_to_net_change_pct": -0.15
+        },
+        {
+          "company": "Fidelity National Information Services, Inc. (FNIS)",
+          "prior_complaints": 4170,
+          "current_complaints": 5988,
+          "net_change_complaints": 1818,
+          "pct_growth": 43.6,
+          "contribution_to_net_change_pct": 0.1
+        },
+        {
+          "company": "CL Holdings LLC",
+          "prior_complaints": 2855,
+          "current_complaints": 3943,
+          "net_change_complaints": 1088,
+          "pct_growth": 38.1,
+          "contribution_to_net_change_pct": 0.06
+        },
+        {
+          "company": "Nelnet, Inc.",
+          "prior_complaints": 2719,
+          "current_complaints": 1978,
+          "net_change_complaints": -741,
+          "pct_growth": -27.3,
+          "contribution_to_net_change_pct": -0.04
+        },
+        {
+          "company": "Early Warning Services, LLC",
+          "prior_complaints": 3129,
+          "current_complaints": 3851,
+          "net_change_complaints": 722,
+          "pct_growth": 23.1,
+          "contribution_to_net_change_pct": 0.04
+        },
+        {
+          "company": "National Consumer Telecom & Utilities Exchange, Inc.",
+          "prior_complaints": 450,
+          "current_complaints": 1138,
+          "net_change_complaints": 688,
+          "pct_growth": 152.9,
+          "contribution_to_net_change_pct": 0.04
+        },
+        {
+          "company": "MOHELA",
+          "prior_complaints": 1906,
+          "current_complaints": 1303,
+          "net_change_complaints": -603,
+          "pct_growth": -31.6,
+          "contribution_to_net_change_pct": -0.03
+        },
+        {
+          "company": "SYNCHRONY FINANCIAL",
+          "prior_complaints": 3537,
+          "current_complaints": 2952,
+          "net_change_complaints": -585,
+          "pct_growth": -16.5,
+          "contribution_to_net_change_pct": -0.03
+        },
+        {
+          "company": "IPAC'S Inc.",
+          "prior_complaints": 2,
+          "current_complaints": 483,
+          "net_change_complaints": 481,
+          "pct_growth": null,
+          "contribution_to_net_change_pct": 0.03
+        },
+        {
+          "company": "Advanced Resolution Services Inc.",
+          "prior_complaints": 471,
+          "current_complaints": 0,
+          "net_change_complaints": -471,
+          "pct_growth": -100.0,
+          "contribution_to_net_change_pct": -0.03
+        }
+      ]
+    },
+    {
+      "id": "Q5.3",
+      "file": "05_growth_drivers.sql",
+      "status": "PASS",
+      "row_count": 12,
+      "columns": [
+        "issue_group",
+        "prior_complaints",
+        "current_complaints",
+        "net_change_complaints",
+        "pct_growth",
+        "contribution_to_net_change_pct"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "check": "sum(net_change_complaints)",
+          "expected": 1783087,
+          "actual": 1783087,
+          "passed": true
+        },
+        {
+          "check": "sum(contribution_to_net_change_pct)",
+          "expected": 100,
+          "actual": 100.01,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "issue_group": "Incorrect information on your report",
+          "prior_complaints": 2265644,
+          "current_complaints": 3401570,
+          "net_change_complaints": 1135926,
+          "pct_growth": 50.1,
+          "contribution_to_net_change_pct": 63.71
+        },
+        {
+          "issue_group": "Problem with a company's investigation into an existing problem or issue",
+          "prior_complaints": 688218,
+          "current_complaints": 1084953,
+          "net_change_complaints": 396735,
+          "pct_growth": 57.6,
+          "contribution_to_net_change_pct": 22.25
+        },
+        {
+          "issue_group": "Improper use of your report",
+          "prior_complaints": 921008,
+          "current_complaints": 1162830,
+          "net_change_complaints": 241822,
+          "pct_growth": 26.3,
+          "contribution_to_net_change_pct": 13.56
+        },
+        {
+          "issue_group": "Problem with fraud alerts or security freezes",
+          "prior_complaints": 12352,
+          "current_complaints": 17655,
+          "net_change_complaints": 5303,
+          "pct_growth": 42.9,
+          "contribution_to_net_change_pct": 0.3
+        },
+        {
+          "issue_group": "Unable to get your credit report or credit score",
+          "prior_complaints": 12227,
+          "current_complaints": 16362,
+          "net_change_complaints": 4135,
+          "pct_growth": 33.8,
+          "contribution_to_net_change_pct": 0.23
+        },
+        {
+          "issue_group": "Problem with a purchase shown on your statement",
+          "prior_complaints": 1,
+          "current_complaints": 0,
+          "net_change_complaints": -1,
+          "pct_growth": null,
+          "contribution_to_net_change_pct": 0.0
+        },
+        {
+          "issue_group": "Managing an account",
+          "prior_complaints": 1,
+          "current_complaints": 0,
+          "net_change_complaints": -1,
+          "pct_growth": null,
+          "contribution_to_net_change_pct": 0.0
+        },
+        {
+          "issue_group": "Struggling to repay your loan",
+          "prior_complaints": 1,
+          "current_complaints": 0,
+          "net_change_complaints": -1,
+          "pct_growth": null,
+          "contribution_to_net_change_pct": 0.0
+        },
+        {
+          "issue_group": "Problems at the end of the loan or lease",
+          "prior_complaints": 2,
+          "current_complaints": 0,
+          "net_change_complaints": -2,
+          "pct_growth": null,
+          "contribution_to_net_change_pct": 0.0
+        },
+        {
+          "issue_group": "Dealing with your lender or servicer",
+          "prior_complaints": 4,
+          "current_complaints": 0,
+          "net_change_complaints": -4,
+          "pct_growth": null,
+          "contribution_to_net_change_pct": 0.0
+        },
+        {
+          "issue_group": "Identity theft protection or other monitoring services",
+          "prior_complaints": 490,
+          "current_complaints": 447,
+          "net_change_complaints": -43,
+          "pct_growth": -8.8,
+          "contribution_to_net_change_pct": 0.0
+        },
+        {
+          "issue_group": "Credit monitoring or identity theft protection services",
+          "prior_complaints": 6836,
+          "current_complaints": 6054,
+          "net_change_complaints": -782,
+          "pct_growth": -11.4,
+          "contribution_to_net_change_pct": -0.04
+        }
+      ]
+    },
+    {
+      "id": "Q5.4",
+      "file": "05_growth_drivers.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q6.1",
+      "file": "06_executive_scorecard.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q6.2",
+      "file": "06_executive_scorecard.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    }
+  ]
+}

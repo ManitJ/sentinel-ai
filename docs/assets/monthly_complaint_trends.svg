@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1350" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<title id="title">Monthly credit-reporting complaints to the CFPB, January 2025 to October 2026</title>
+<desc id="desc">Line chart of exact monthly complaint counts. Jan 2025: 365,867; Feb 2025: 293,833; Mar 2025: 354,016; Apr 2025: 364,035; May 2025: 370,373; Jun 2025: 368,095; Jul 2025: 423,129; Aug 2025: 445,598; Sep 2025: 452,648; Oct 2025: 469,190; Nov 2025: 448,082; Dec 2025: 455,423; Jan 2026: 478,959; Feb 2026: 444,804; Mar 2026: 552,103; Apr 2026: 561,363; May 2026: 564,826; Jun 2026: 565,851; Jul 2026: 615,345; Aug 2026: 586,804; Sep 2026: 608,598; Oct 2026: 711,218. Peak 711,218 in October 2026.</desc>
+<rect width="1200" height="675" fill="#fcfcfb"/>
+<text x="40.0" y="52.0" font-size="24" fill="#0b0b0b" text-anchor="start" font-weight="600">Credit-reporting complaints reached 711,218 in October 2026</text>
+<text x="40.0" y="80.0" font-size="15" fill="#52514e" text-anchor="start" font-weight="normal">Monthly complaints received by the CFPB, January 2025 – October 2026 (exact counts)</text>
+<rect x="1065.1" y="150.0" width="99.8" height="390.0" fill="#efeee9" data-provisional="2026-09,2026-10"/>
+<text x="1115.0" y="510.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">Response data</text>
+<text x="1115.0" y="524.0" font-size="11" fill="#52514e" text-anchor="middle" font-weight="normal">provisional*</text>
+<line x1="92" y1="540.0" x2="1170" y2="540.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="544.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">0</text>
+<line x1="92" y1="442.5" x2="1170" y2="442.5" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="446.5" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">200K</text>
+<line x1="92" y1="345.0" x2="1170" y2="345.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="349.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">400K</text>
+<line x1="92" y1="247.5" x2="1170" y2="247.5" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="251.5" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">600K</text>
+<line x1="92" y1="150.0" x2="1170" y2="150.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="80.0" y="154.0" font-size="12" fill="#898781" text-anchor="end" font-weight="normal">800K</text>
+<text x="92.0" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jan</text>
+<text x="141.9" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Feb</text>
+<text x="191.8" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Mar</text>
+<text x="241.7" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Apr</text>
+<text x="291.6" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">May</text>
+<text x="341.5" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jun</text>
+<text x="391.4" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jul</text>
+<text x="441.3" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Aug</text>
+<text x="491.2" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Sep</text>
+<text x="541.1" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Oct</text>
+<text x="591.0" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Nov</text>
+<text x="641.0" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Dec</text>
+<text x="690.9" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jan</text>
+<text x="740.8" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Feb</text>
+<text x="790.7" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Mar</text>
+<text x="840.6" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Apr</text>
+<text x="890.5" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">May</text>
+<text x="940.4" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jun</text>
+<text x="990.3" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Jul</text>
+<text x="1040.2" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Aug</text>
+<text x="1090.1" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Sep</text>
+<text x="1140.0" y="562.0" font-size="11" fill="#898781" text-anchor="middle" font-weight="normal">Oct</text>
+<line x1="84.0" y1="574" x2="649.0" y2="574" stroke="#2a78d6" stroke-width="2"/>
+<text x="366.5" y="592.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="600">2025</text>
+<line x1="682.9" y1="574" x2="1148.0" y2="574" stroke="#eb6834" stroke-width="2"/>
+<text x="915.4" y="592.0" font-size="13" fill="#52514e" text-anchor="middle" font-weight="600">2026</text>
+<polyline points="641.0,318.0 690.9,306.5" fill="none" stroke="#898781" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="92.0,361.6 141.9,396.8 191.8,367.4 241.7,362.5 291.6,359.4 341.5,360.6 391.4,333.7 441.3,322.8 491.2,319.3 541.1,311.3 591.0,321.6 641.0,318.0" fill="none" stroke="#2a78d6" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="690.9,306.5 740.8,323.2 790.7,270.8 840.6,266.3 890.5,264.6 940.4,264.1 990.3,240.0 1040.2,253.9 1090.1,243.3 1140.0,193.3" fill="none" stroke="#eb6834" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92.0" cy="361.6" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-01" data-value="365867"/>
+<circle cx="141.9" cy="396.8" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-02" data-value="293833"/>
+<circle cx="191.8" cy="367.4" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-03" data-value="354016"/>
+<circle cx="241.7" cy="362.5" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-04" data-value="364035"/>
+<circle cx="291.6" cy="359.4" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-05" data-value="370373"/>
+<circle cx="341.5" cy="360.6" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-06" data-value="368095"/>
+<circle cx="391.4" cy="333.7" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-07" data-value="423129"/>
+<circle cx="441.3" cy="322.8" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-08" data-value="445598"/>
+<circle cx="491.2" cy="319.3" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-09" data-value="452648"/>
+<circle cx="541.1" cy="311.3" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-10" data-value="469190"/>
+<circle cx="591.0" cy="321.6" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-11" data-value="448082"/>
+<circle cx="641.0" cy="318.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2" data-month="2025-12" data-value="455423"/>
+<circle cx="690.9" cy="306.5" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-01" data-value="478959"/>
+<circle cx="740.8" cy="323.2" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-02" data-value="444804"/>
+<circle cx="790.7" cy="270.8" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-03" data-value="552103"/>
+<circle cx="840.6" cy="266.3" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-04" data-value="561363"/>
+<circle cx="890.5" cy="264.6" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-05" data-value="564826"/>
+<circle cx="940.4" cy="264.1" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-06" data-value="565851"/>
+<circle cx="990.3" cy="240.0" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-07" data-value="615345"/>
+<circle cx="1040.2" cy="253.9" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-08" data-value="586804"/>
+<circle cx="1090.1" cy="243.3" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-09" data-value="608598"/>
+<circle cx="1140.0" cy="193.3" r="6" fill="#eb6834" stroke="#fcfcfb" stroke-width="2" data-month="2026-10" data-value="711218"/>
+<g data-annotation="peak" data-month="2026-10" data-value="711218" data-mom="16.9" data-yoy="51.6">
+<text x="1126.0" y="171.0" font-size="15" fill="#0b0b0b" text-anchor="end" font-weight="600">Peak: 711,218</text>
+<text x="1126.0" y="188.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="normal">+16.9% vs Sep 2026  ·  +51.6% vs Oct 2025</text>
+</g>
+<line x1="106" y1="164" x2="128" y2="164" stroke="#2a78d6" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="117" cy="164" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="136.0" y="168.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="normal">2025</text>
+<line x1="192" y1="164" x2="214" y2="164" stroke="#eb6834" stroke-width="2.5" stroke-linecap="round"/>
+<circle cx="203" cy="164" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="222.0" y="168.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="normal">2026</text>
+<text x="40.0" y="631.0" font-size="11" fill="#52514e" text-anchor="start" font-weight="normal">* September and October 2026 response metrics are provisional (at least 1% of complaints still awaiting a company response); complaint volumes are counted at intake and remain usable.</text>
+<text x="40.0" y="651.0" font-size="11" fill="#898781" text-anchor="start" font-weight="normal">Source: CFPB Consumer Complaint Database (credit reporting), exact monthly totals via Sentinel AI query Q1.1 (sql/01_monthly_trends.sql). Data snapshot: November 12, 2026.</text>
+</svg>

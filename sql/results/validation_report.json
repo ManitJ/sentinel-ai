@@ -1,0 +1,1139 @@
+{
+  "generated_at": "2026-11-13T15:34:05.957611+00:00",
+  "summary": {
+    "PASS": 17,
+    "FAIL": 0,
+    "NOT RUN": 0
+  },
+  "queries": [
+    {
+      "id": "Q2.1",
+      "file": "02_company_benchmarking.sql",
+      "status": "PASS",
+      "row_count": 10,
+      "columns": [
+        "company_rank",
+        "company",
+        "complaints",
+        "months_with_complaints",
+        "pct_of_all_complaints",
+        "cumulative_pct_of_all_complaints"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 10,
+          "actual": 10,
+          "passed": true
+        },
+        {
+          "check": "company where {'company_rank': 1}",
+          "expected": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+          "actual": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+          "passed": true
+        },
+        {
+          "check": "complaints where {'company_rank': 1}",
+          "expected": 3567685,
+          "actual": 3567685,
+          "passed": true
+        },
+        {
+          "check": "company where {'company_rank': 2}",
+          "expected": "EQUIFAX, INC.",
+          "actual": "EQUIFAX, INC.",
+          "passed": true
+        },
+        {
+          "check": "complaints where {'company_rank': 2}",
+          "expected": 3368770,
+          "actual": 3368770,
+          "passed": true
+        },
+        {
+          "check": "company where {'company_rank': 3}",
+          "expected": "Experian Information Solutions Inc.",
+          "actual": "Experian Information Solutions Inc.",
+          "passed": true
+        },
+        {
+          "check": "complaints where {'company_rank': 3}",
+          "expected": 3128932,
+          "actual": 3128932,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "company_rank": 1,
+          "company": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+          "complaints": 3567685,
+          "months_with_complaints": 22,
+          "pct_of_all_complaints": 33.98,
+          "cumulative_pct_of_all_complaints": 33.98
+        },
+        {
+          "company_rank": 2,
+          "company": "EQUIFAX, INC.",
+          "complaints": 3368770,
+          "months_with_complaints": 22,
+          "pct_of_all_complaints": 32.08,
+          "cumulative_pct_of_all_complaints": 66.06
+        },
+        {
+          "company_rank": 3,
+          "company": "Experian Information Solutions Inc.",
+          "complaints": 3128932,
+          "months_with_complaints": 22,
+          "pct_of_all_complaints": 29.8,
+          "cumulative_pct_of_all_complaints": 95.86
+        }
+      ]
+    },
+    {
+      "id": "Q2.2",
+      "file": "02_company_benchmarking.sql",
+      "status": "PASS",
+      "row_count": 22,
+      "columns": [
+        "month_label",
+        "companies_with_complaints",
+        "top1_complaint_pct",
+        "top3_complaint_pct",
+        "complaint_concentration_hhi"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 22,
+          "actual": 22,
+          "passed": true
+        },
+        {
+          "check": "top1_complaint_pct where {'month_label': '2026-10'}",
+          "expected": 36.77,
+          "actual": 36.77,
+          "passed": true
+        },
+        {
+          "check": "top3_complaint_pct where {'month_label': '2026-10'}",
+          "expected": 97.68,
+          "actual": 97.68,
+          "passed": true
+        },
+        {
+          "check": "complaint_concentration_hhi where {'month_label': '2026-10'}",
+          "expected": 3219,
+          "actual": 3219.0,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "month_label": "2025-01",
+          "companies_with_complaints": 854,
+          "top1_complaint_pct": 31.94,
+          "top3_complaint_pct": 93.77,
+          "complaint_concentration_hhi": 2933.0
+        },
+        {
+          "month_label": "2025-02",
+          "companies_with_complaints": 791,
+          "top1_complaint_pct": 32.78,
+          "top3_complaint_pct": 93.75,
+          "complaint_concentration_hhi": 2939.0
+        },
+        {
+          "month_label": "2025-03",
+          "companies_with_complaints": 789,
+          "top1_complaint_pct": 33.7,
+          "top3_complaint_pct": 94.53,
+          "complaint_concentration_hhi": 2999.0
+        }
+      ]
+    },
+    {
+      "id": "Q2.3",
+      "file": "02_company_benchmarking.sql",
+      "status": "PASS",
+      "row_count": 10,
+      "columns": [
+        "company",
+        "prior_month",
+        "prior_rank",
+        "prior_complaints",
+        "prior_pct_of_complaints",
+        "current_month",
+        "current_rank",
+        "current_complaints",
+        "current_pct_of_complaints",
+        "net_change_complaints",
+        "share_change_pct_points"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 10,
+          "actual": 10,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "company": "Experian Information Solutions Inc.",
+          "prior_month": "2025-10",
+          "prior_rank": 3,
+          "prior_complaints": 128413,
+          "prior_pct_of_complaints": 27.37,
+          "current_month": "2026-10",
+          "current_rank": 1,
+          "current_complaints": 261507,
+          "current_pct_of_complaints": 36.77,
+          "net_change_complaints": 133094,
+          "share_change_pct_points": 9.4
+        },
+        {
+          "company": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+          "prior_month": "2025-10",
+          "prior_rank": 2,
+          "prior_complaints": 156950,
+          "prior_pct_of_complaints": 33.45,
+          "current_month": "2026-10",
+          "current_rank": 2,
+          "current_complaints": 233620,
+          "current_pct_of_complaints": 32.85,
+          "net_change_complaints": 76670,
+          "share_change_pct_points": -0.6
+        },
+        {
+          "company": "EQUIFAX, INC.",
+          "prior_month": "2025-10",
+          "prior_rank": 1,
+          "prior_complaints": 164883,
+          "prior_pct_of_complaints": 35.14,
+          "current_month": "2026-10",
+          "current_rank": 3,
+          "current_complaints": 199585,
+          "current_pct_of_complaints": 28.06,
+          "net_change_complaints": 34702,
+          "share_change_pct_points": -7.08
+        }
+      ]
+    },
+    {
+      "id": "Q2.4",
+      "file": "02_company_benchmarking.sql",
+      "status": "PASS",
+      "row_count": 47,
+      "columns": [
+        "company",
+        "dimension",
+        "category",
+        "est_pct_of_company_complaints",
+        "ci95_low_pct",
+        "ci95_high_pct",
+        "company_sample_records",
+        "measure_type"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 47,
+          "actual": 47,
+          "passed": true
+        },
+        {
+          "check": "all measure_type",
+          "expected": "estimated",
+          "actual": "estimated",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "company": "CAPITAL ONE FINANCIAL CORPORATION",
+          "dimension": "company_response",
+          "category": "Closed with explanation",
+          "est_pct_of_company_complaints": 80.88,
+          "ci95_low_pct": 69.36,
+          "ci95_high_pct": 88.77,
+          "company_sample_records": 60,
+          "measure_type": "estimated"
+        },
+        {
+          "company": "CAPITAL ONE FINANCIAL CORPORATION",
+          "dimension": "company_response",
+          "category": "Closed with non-monetary relief",
+          "est_pct_of_company_complaints": 19.12,
+          "ci95_low_pct": 11.23,
+          "ci95_high_pct": 30.64,
+          "company_sample_records": 60,
+          "measure_type": "estimated"
+        },
+        {
+          "company": "CAPITAL ONE FINANCIAL CORPORATION",
+          "dimension": "company_response",
+          "category": "Untimely response",
+          "est_pct_of_company_complaints": 0.0,
+          "ci95_low_pct": 0.0,
+          "ci95_high_pct": 6.02,
+          "company_sample_records": 60,
+          "measure_type": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "Q3.1",
+      "file": "03_issue_trends.sql",
+      "status": "PASS",
+      "row_count": 13,
+      "columns": [
+        "issue_rank",
+        "issue",
+        "issue_group",
+        "is_combined_group",
+        "complaints",
+        "pct_of_complaints"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 13,
+          "actual": 13,
+          "passed": true
+        },
+        {
+          "check": "sum(complaints)",
+          "expected": 10500160,
+          "actual": 10500160,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "issue_rank": 1,
+          "issue": "Incorrect information on your report",
+          "issue_group": "Incorrect information on your report",
+          "is_combined_group": false,
+          "complaints": 6216782,
+          "pct_of_complaints": 59.21
+        },
+        {
+          "issue_rank": 2,
+          "issue": "Improper use of your report",
+          "issue_group": "Improper use of your report",
+          "is_combined_group": false,
+          "complaints": 2261703,
+          "pct_of_complaints": 21.54
+        },
+        {
+          "issue_rank": 3,
+          "issue": "Problem with a company's investigation into an existing problem",
+          "issue_group": "Problem with a company's investigation into an existing problem or issue",
+          "is_combined_group": true,
+          "complaints": 1935262,
+          "pct_of_complaints": 18.43
+        }
+      ]
+    },
+    {
+      "id": "Q3.2",
+      "file": "03_issue_trends.sql",
+      "status": "PASS",
+      "row_count": 160,
+      "columns": [
+        "month_label",
+        "issue_group",
+        "complaints",
+        "pct_of_month",
+        "rank_in_month"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 160,
+          "actual": 160,
+          "passed": true
+        },
+        {
+          "check": "sum(complaints)",
+          "expected": 10500160,
+          "actual": 10500160,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "month_label": "2025-01",
+          "issue_group": "Incorrect information on your report",
+          "complaints": 194471,
+          "pct_of_month": 53.15,
+          "rank_in_month": 1
+        },
+        {
+          "month_label": "2025-01",
+          "issue_group": "Improper use of your report",
+          "complaints": 88587,
+          "pct_of_month": 24.21,
+          "rank_in_month": 2
+        },
+        {
+          "month_label": "2025-01",
+          "issue_group": "Problem with a company's investigation into an existing problem or issue",
+          "complaints": 79456,
+          "pct_of_month": 21.72,
+          "rank_in_month": 3
+        }
+      ]
+    },
+    {
+      "id": "Q3.3",
+      "file": "03_issue_trends.sql",
+      "status": "PASS",
+      "row_count": 12,
+      "columns": [
+        "issue_group",
+        "prior_complaints",
+        "current_complaints",
+        "prior_pct_of_complaints",
+        "current_pct_of_complaints",
+        "share_change_pct_points"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "check": "sum(prior_complaints)",
+          "expected": 3906784,
+          "actual": 3906784,
+          "passed": true
+        },
+        {
+          "check": "sum(current_complaints)",
+          "expected": 5689871,
+          "actual": 5689871,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "issue_group": "Incorrect information on your report",
+          "prior_complaints": 2265644,
+          "current_complaints": 3401570,
+          "prior_pct_of_complaints": 57.99,
+          "current_pct_of_complaints": 59.78,
+          "share_change_pct_points": 1.79
+        },
+        {
+          "issue_group": "Improper use of your report",
+          "prior_complaints": 921008,
+          "current_complaints": 1162830,
+          "prior_pct_of_complaints": 23.57,
+          "current_pct_of_complaints": 20.44,
+          "share_change_pct_points": -3.14
+        },
+        {
+          "issue_group": "Problem with a company's investigation into an existing problem or issue",
+          "prior_complaints": 688218,
+          "current_complaints": 1084953,
+          "prior_pct_of_complaints": 17.62,
+          "current_pct_of_complaints": 19.07,
+          "share_change_pct_points": 1.45
+        }
+      ]
+    },
+    {
+      "id": "Q3.4",
+      "file": "03_issue_trends.sql",
+      "status": "PASS",
+      "row_count": 15,
+      "columns": [
+        "issue",
+        "sub_issue",
+        "est_pct_of_complaints",
+        "ci95_low_pct",
+        "ci95_high_pct",
+        "sample_records",
+        "measure_type"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 15,
+          "actual": 15,
+          "passed": true
+        },
+        {
+          "check": "all measure_type",
+          "expected": "estimated",
+          "actual": "estimated",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "issue": "Incorrect information on your report",
+          "sub_issue": "Information belongs to someone else",
+          "est_pct_of_complaints": 38.8,
+          "ci95_low_pct": 38.37,
+          "ci95_high_pct": 39.24,
+          "sample_records": 19449,
+          "measure_type": "estimated"
+        },
+        {
+          "issue": "Improper use of your report",
+          "sub_issue": "Reporting company used your report improperly",
+          "est_pct_of_complaints": 17.35,
+          "ci95_low_pct": 17.01,
+          "ci95_high_pct": 17.69,
+          "sample_records": 8696,
+          "measure_type": "estimated"
+        },
+        {
+          "issue": "Incorrect information on your report",
+          "sub_issue": "Account information incorrect",
+          "est_pct_of_complaints": 11.45,
+          "ci95_low_pct": 11.17,
+          "ci95_high_pct": 11.74,
+          "sample_records": 5591,
+          "measure_type": "estimated"
+        }
+      ]
+    },
+    {
+      "id": "Q4.1",
+      "file": "04_geographic_distribution.sql",
+      "status": "PASS",
+      "row_count": 5,
+      "columns": [
+        "location_type",
+        "distinct_locations",
+        "complaints",
+        "pct_of_all_complaints"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 5,
+          "actual": 5,
+          "passed": true
+        },
+        {
+          "check": "sum(complaints)",
+          "expected": 10500160,
+          "actual": 10500160,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "location_type": "state",
+          "distinct_locations": 50,
+          "complaints": 10409442,
+          "pct_of_all_complaints": 99.136
+        },
+        {
+          "location_type": "territory",
+          "distinct_locations": 7,
+          "complaints": 51312,
+          "pct_of_all_complaints": 0.489
+        },
+        {
+          "location_type": "district",
+          "distinct_locations": 1,
+          "complaints": 29773,
+          "pct_of_all_complaints": 0.284
+        }
+      ]
+    },
+    {
+      "id": "Q4.2",
+      "file": "04_geographic_distribution.sql",
+      "status": "PASS",
+      "row_count": 51,
+      "columns": [
+        "state_rank",
+        "state_code",
+        "state_category",
+        "complaints",
+        "pct_of_all_complaints",
+        "pct_of_state_and_dc"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 51,
+          "actual": 51,
+          "passed": true
+        },
+        {
+          "check": "sum(pct_of_state_and_dc)",
+          "expected": 100,
+          "actual": 100.02,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "state_rank": 1,
+          "state_code": "TX",
+          "state_category": "state",
+          "complaints": 1645206,
+          "pct_of_all_complaints": 15.67,
+          "pct_of_state_and_dc": 15.76
+        },
+        {
+          "state_rank": 2,
+          "state_code": "FL",
+          "state_category": "state",
+          "complaints": 1553437,
+          "pct_of_all_complaints": 14.79,
+          "pct_of_state_and_dc": 14.88
+        },
+        {
+          "state_rank": 3,
+          "state_code": "CA",
+          "state_category": "state",
+          "complaints": 946282,
+          "pct_of_all_complaints": 9.01,
+          "pct_of_state_and_dc": 9.06
+        }
+      ]
+    },
+    {
+      "id": "Q4.3",
+      "file": "04_geographic_distribution.sql",
+      "status": "PASS",
+      "row_count": 51,
+      "columns": [
+        "state_code",
+        "prior_complaints",
+        "current_complaints",
+        "net_change_complaints",
+        "pct_growth",
+        "net_change_rank"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 51,
+          "actual": 51,
+          "passed": true
+        },
+        {
+          "check": "sum(prior_complaints)",
+          "expected": 3881011,
+          "actual": 3881011,
+          "passed": true
+        },
+        {
+          "check": "sum(current_complaints)",
+          "expected": 5660738,
+          "actual": 5660738,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "state_code": "TX",
+          "prior_complaints": 555608,
+          "current_complaints": 946636,
+          "net_change_complaints": 391028,
+          "pct_growth": 70.4,
+          "net_change_rank": 1
+        },
+        {
+          "state_code": "FL",
+          "prior_complaints": 594319,
+          "current_complaints": 826294,
+          "net_change_complaints": 231975,
+          "pct_growth": 39.0,
+          "net_change_rank": 2
+        },
+        {
+          "state_code": "CA",
+          "prior_complaints": 356177,
+          "current_complaints": 506006,
+          "net_change_complaints": 149829,
+          "pct_growth": 42.1,
+          "net_change_rank": 3
+        }
+      ]
+    },
+    {
+      "id": "Q5.1",
+      "file": "05_growth_drivers.sql",
+      "status": "PASS",
+      "row_count": 1,
+      "columns": [
+        "prior_period",
+        "current_period",
+        "prior_complaints",
+        "current_complaints",
+        "net_change_complaints",
+        "pct_growth"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "check": "prior_complaints",
+          "expected": 3906784,
+          "actual": 3906784,
+          "passed": true
+        },
+        {
+          "check": "current_complaints",
+          "expected": 5689871,
+          "actual": 5689871,
+          "passed": true
+        },
+        {
+          "check": "net_change_complaints",
+          "expected": 1783087,
+          "actual": 1783087,
+          "passed": true
+        },
+        {
+          "check": "pct_growth",
+          "expected": 45.6,
+          "actual": 45.6,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "prior_period": "2025-01 to 2025-10",
+          "current_period": "2026-01 to 2026-10",
+          "prior_complaints": 3906784,
+          "current_complaints": 5689871,
+          "net_change_complaints": 1783087,
+          "pct_growth": 45.6
+        }
+      ]
+    },
+    {
+      "id": "Q5.2",
+      "file": "05_growth_drivers.sql",
+      "status": "PASS",
+      "row_count": 15,
+      "columns": [
+        "company",
+        "prior_complaints",
+        "current_complaints",
+        "net_change_complaints",
+        "pct_growth",
+        "contribution_to_net_change_pct"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 15,
+          "actual": 15,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "company": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+          "prior_complaints": 1272491,
+          "current_complaints": 1997612,
+          "net_change_complaints": 725121,
+          "pct_growth": 57.0,
+          "contribution_to_net_change_pct": 40.67
+        },
+        {
+          "company": "Experian Information Solutions Inc.",
+          "prior_complaints": 1110660,
+          "current_complaints": 1767045,
+          "net_change_complaints": 656385,
+          "pct_growth": 59.1,
+          "contribution_to_net_change_pct": 36.81
+        },
+        {
+          "company": "EQUIFAX, INC.",
+          "prior_complaints": 1331278,
+          "current_complaints": 1723795,
+          "net_change_complaints": 392517,
+          "pct_growth": 29.5,
+          "contribution_to_net_change_pct": 22.01
+        }
+      ]
+    },
+    {
+      "id": "Q5.3",
+      "file": "05_growth_drivers.sql",
+      "status": "PASS",
+      "row_count": 12,
+      "columns": [
+        "issue_group",
+        "prior_complaints",
+        "current_complaints",
+        "net_change_complaints",
+        "pct_growth",
+        "contribution_to_net_change_pct"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 12,
+          "actual": 12,
+          "passed": true
+        },
+        {
+          "check": "sum(net_change_complaints)",
+          "expected": 1783087,
+          "actual": 1783087,
+          "passed": true
+        },
+        {
+          "check": "sum(contribution_to_net_change_pct)",
+          "expected": 100,
+          "actual": 100.01,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "issue_group": "Incorrect information on your report",
+          "prior_complaints": 2265644,
+          "current_complaints": 3401570,
+          "net_change_complaints": 1135926,
+          "pct_growth": 50.1,
+          "contribution_to_net_change_pct": 63.71
+        },
+        {
+          "issue_group": "Problem with a company's investigation into an existing problem or issue",
+          "prior_complaints": 688218,
+          "current_complaints": 1084953,
+          "net_change_complaints": 396735,
+          "pct_growth": 57.6,
+          "contribution_to_net_change_pct": 22.25
+        },
+        {
+          "issue_group": "Improper use of your report",
+          "prior_complaints": 921008,
+          "current_complaints": 1162830,
+          "net_change_complaints": 241822,
+          "pct_growth": 26.3,
+          "contribution_to_net_change_pct": 13.56
+        }
+      ]
+    },
+    {
+      "id": "Q5.4",
+      "file": "05_growth_drivers.sql",
+      "status": "PASS",
+      "row_count": 15,
+      "columns": [
+        "state_code",
+        "state_category",
+        "prior_complaints",
+        "current_complaints",
+        "net_change_complaints",
+        "pct_growth",
+        "contribution_to_net_change_pct"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 15,
+          "actual": 15,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "state_code": "TX",
+          "state_category": "state",
+          "prior_complaints": 555608,
+          "current_complaints": 946636,
+          "net_change_complaints": 391028,
+          "pct_growth": 70.4,
+          "contribution_to_net_change_pct": 21.93
+        },
+        {
+          "state_code": "FL",
+          "state_category": "state",
+          "prior_complaints": 594319,
+          "current_complaints": 826294,
+          "net_change_complaints": 231975,
+          "pct_growth": 39.0,
+          "contribution_to_net_change_pct": 13.01
+        },
+        {
+          "state_code": "CA",
+          "state_category": "state",
+          "prior_complaints": 356177,
+          "current_complaints": 506006,
+          "net_change_complaints": 149829,
+          "pct_growth": 42.1,
+          "contribution_to_net_change_pct": 8.4
+        }
+      ]
+    },
+    {
+      "id": "Q6.1",
+      "file": "06_executive_scorecard.sql",
+      "status": "PASS",
+      "row_count": 1,
+      "columns": [
+        "latest_month",
+        "latest_month_complaints",
+        "mom_pct",
+        "yoy_pct",
+        "rolling_3m_avg",
+        "ytd_complaints",
+        "prior_ytd_complaints",
+        "ytd_pct_growth",
+        "top_company",
+        "top_company_pct",
+        "top3_company_pct",
+        "complaint_concentration_hhi",
+        "top_issue",
+        "top_issue_pct",
+        "top_state",
+        "top_state_pct",
+        "response_reference_month",
+        "timely_response_pct",
+        "monetary_relief_pct",
+        "non_monetary_relief_pct",
+        "closed_with_explanation_pct",
+        "provisional_response_months"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 1,
+          "actual": 1,
+          "passed": true
+        },
+        {
+          "check": "latest_month",
+          "expected": "2026-10",
+          "actual": "2026-10",
+          "passed": true
+        },
+        {
+          "check": "latest_month_complaints",
+          "expected": 711218,
+          "actual": 711218,
+          "passed": true
+        },
+        {
+          "check": "mom_pct",
+          "expected": 16.9,
+          "actual": 16.9,
+          "passed": true
+        },
+        {
+          "check": "yoy_pct",
+          "expected": 51.6,
+          "actual": 51.6,
+          "passed": true
+        },
+        {
+          "check": "ytd_complaints",
+          "expected": 5689871,
+          "actual": 5689871,
+          "passed": true
+        },
+        {
+          "check": "prior_ytd_complaints",
+          "expected": 3906784,
+          "actual": 3906784,
+          "passed": true
+        },
+        {
+          "check": "ytd_pct_growth",
+          "expected": 45.6,
+          "actual": 45.6,
+          "passed": true
+        },
+        {
+          "check": "top_company",
+          "expected": "Experian Information Solutions Inc.",
+          "actual": "Experian Information Solutions Inc.",
+          "passed": true
+        },
+        {
+          "check": "top_company_pct",
+          "expected": 36.77,
+          "actual": 36.77,
+          "passed": true
+        },
+        {
+          "check": "top3_company_pct",
+          "expected": 97.68,
+          "actual": 97.68,
+          "passed": true
+        },
+        {
+          "check": "complaint_concentration_hhi",
+          "expected": 3219,
+          "actual": 3219.0,
+          "passed": true
+        },
+        {
+          "check": "top_issue",
+          "expected": "Incorrect information on your report",
+          "actual": "Incorrect information on your report",
+          "passed": true
+        },
+        {
+          "check": "top_issue_pct",
+          "expected": 61.09,
+          "actual": 61.09,
+          "passed": true
+        },
+        {
+          "check": "top_state",
+          "expected": "TX",
+          "actual": "TX",
+          "passed": true
+        },
+        {
+          "check": "top_state_pct",
+          "expected": 16.92,
+          "actual": 16.92,
+          "passed": true
+        },
+        {
+          "check": "response_reference_month",
+          "expected": "2026-08",
+          "actual": "2026-08",
+          "passed": true
+        },
+        {
+          "check": "timely_response_pct",
+          "expected": 99.92,
+          "actual": 99.92,
+          "passed": true
+        },
+        {
+          "check": "monetary_relief_pct",
+          "expected": 0.01,
+          "actual": 0.01,
+          "passed": true
+        },
+        {
+          "check": "non_monetary_relief_pct",
+          "expected": 36.15,
+          "actual": 36.15,
+          "passed": true
+        },
+        {
+          "check": "closed_with_explanation_pct",
+          "expected": 63.75,
+          "actual": 63.75,
+          "passed": true
+        },
+        {
+          "check": "provisional_response_months",
+          "expected": "2026-09, 2026-10",
+          "actual": "2026-09, 2026-10",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "latest_month": "2026-10",
+          "latest_month_complaints": 711218,
+          "mom_pct": 16.9,
+          "yoy_pct": 51.6,
+          "rolling_3m_avg": 635540.0,
+          "ytd_complaints": 5689871,
+          "prior_ytd_complaints": 3906784,
+          "ytd_pct_growth": 45.6,
+          "top_company": "Experian Information Solutions Inc.",
+          "top_company_pct": 36.77,
+          "top3_company_pct": 97.68,
+          "complaint_concentration_hhi": 3219.0,
+          "top_issue": "Incorrect information on your report",
+          "top_issue_pct": 61.09,
+          "top_state": "TX",
+          "top_state_pct": 16.92,
+          "response_reference_month": "2026-08",
+          "timely_response_pct": 99.92,
+          "monetary_relief_pct": 0.01,
+          "non_monetary_relief_pct": 36.15,
+          "closed_with_explanation_pct": 63.75,
+          "provisional_response_months": "2026-09, 2026-10"
+        }
+      ]
+    },
+    {
+      "id": "Q6.2",
+      "file": "06_executive_scorecard.sql",
+      "status": "PASS",
+      "row_count": 20,
+      "columns": [
+        "month_label",
+        "timely_response_pct",
+        "monetary_relief_pct",
+        "non_monetary_relief_pct",
+        "closed_with_explanation_pct",
+        "untimely_response_pct"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 20,
+          "actual": 20,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "month_label": "2025-01",
+          "timely_response_pct": 99.89,
+          "monetary_relief_pct": 0.027,
+          "non_monetary_relief_pct": 48.23,
+          "closed_with_explanation_pct": 51.71,
+          "untimely_response_pct": 0.03
+        },
+        {
+          "month_label": "2025-02",
+          "timely_response_pct": 99.88,
+          "monetary_relief_pct": 0.022,
+          "non_monetary_relief_pct": 50.31,
+          "closed_with_explanation_pct": 49.61,
+          "untimely_response_pct": 0.052
+        },
+        {
+          "month_label": "2025-03",
+          "timely_response_pct": 99.83,
+          "monetary_relief_pct": 0.024,
+          "non_monetary_relief_pct": 52.34,
+          "closed_with_explanation_pct": 47.58,
+          "untimely_response_pct": 0.06
+        }
+      ]
+    }
+  ]
+}

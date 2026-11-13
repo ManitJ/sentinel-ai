@@ -1,0 +1,367 @@
+{
+  "generated_at": "2026-11-13T16:25:28.879559+00:00",
+  "summary": {
+    "PASS": 1,
+    "FAIL": 0,
+    "NOT RUN": 16
+  },
+  "queries": [
+    {
+      "id": "Q2.1",
+      "file": "02_company_benchmarking.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q2.2",
+      "file": "02_company_benchmarking.sql",
+      "status": "PASS",
+      "row_count": 22,
+      "columns": [
+        "month_label",
+        "companies_with_complaints",
+        "top1_complaint_pct",
+        "top3_complaint_pct",
+        "complaint_concentration_hhi"
+      ],
+      "checks": [
+        {
+          "check": "row_count",
+          "expected": 22,
+          "actual": 22,
+          "passed": true
+        },
+        {
+          "check": "top1_complaint_pct where {'month_label': '2026-10'}",
+          "expected": 36.77,
+          "actual": 36.77,
+          "passed": true
+        },
+        {
+          "check": "top3_complaint_pct where {'month_label': '2026-10'}",
+          "expected": 97.68,
+          "actual": 97.68,
+          "passed": true
+        },
+        {
+          "check": "complaint_concentration_hhi where {'month_label': '2026-10'}",
+          "expected": 3219,
+          "actual": 3219.0,
+          "passed": true
+        }
+      ],
+      "error": null,
+      "preview": [
+        {
+          "month_label": "2025-01",
+          "companies_with_complaints": 854,
+          "top1_complaint_pct": 31.94,
+          "top3_complaint_pct": 93.77,
+          "complaint_concentration_hhi": 2933.0
+        },
+        {
+          "month_label": "2025-02",
+          "companies_with_complaints": 791,
+          "top1_complaint_pct": 32.78,
+          "top3_complaint_pct": 93.75,
+          "complaint_concentration_hhi": 2939.0
+        },
+        {
+          "month_label": "2025-03",
+          "companies_with_complaints": 789,
+          "top1_complaint_pct": 33.7,
+          "top3_complaint_pct": 94.53,
+          "complaint_concentration_hhi": 2999.0
+        },
+        {
+          "month_label": "2025-04",
+          "companies_with_complaints": 779,
+          "top1_complaint_pct": 34.0,
+          "top3_complaint_pct": 95.16,
+          "complaint_concentration_hhi": 3040.0
+        },
+        {
+          "month_label": "2025-05",
+          "companies_with_complaints": 794,
+          "top1_complaint_pct": 34.64,
+          "top3_complaint_pct": 95.13,
+          "complaint_concentration_hhi": 3032.0
+        },
+        {
+          "month_label": "2025-06",
+          "companies_with_complaints": 816,
+          "top1_complaint_pct": 35.57,
+          "top3_complaint_pct": 95.05,
+          "complaint_concentration_hhi": 3038.0
+        },
+        {
+          "month_label": "2025-07",
+          "companies_with_complaints": 810,
+          "top1_complaint_pct": 35.71,
+          "top3_complaint_pct": 95.01,
+          "complaint_concentration_hhi": 3037.0
+        },
+        {
+          "month_label": "2025-08",
+          "companies_with_complaints": 792,
+          "top1_complaint_pct": 34.73,
+          "top3_complaint_pct": 95.77,
+          "complaint_concentration_hhi": 3093.0
+        },
+        {
+          "month_label": "2025-09",
+          "companies_with_complaints": 797,
+          "top1_complaint_pct": 34.78,
+          "top3_complaint_pct": 95.8,
+          "complaint_concentration_hhi": 3093.0
+        },
+        {
+          "month_label": "2025-10",
+          "companies_with_complaints": 804,
+          "top1_complaint_pct": 35.14,
+          "top3_complaint_pct": 95.96,
+          "complaint_concentration_hhi": 3104.0
+        },
+        {
+          "month_label": "2025-11",
+          "companies_with_complaints": 805,
+          "top1_complaint_pct": 34.83,
+          "top3_complaint_pct": 95.6,
+          "complaint_concentration_hhi": 3074.0
+        },
+        {
+          "month_label": "2025-12",
+          "companies_with_complaints": 855,
+          "top1_complaint_pct": 34.61,
+          "top3_complaint_pct": 95.33,
+          "complaint_concentration_hhi": 3054.0
+        },
+        {
+          "month_label": "2026-01",
+          "companies_with_complaints": 868,
+          "top1_complaint_pct": 33.82,
+          "top3_complaint_pct": 94.79,
+          "complaint_concentration_hhi": 3006.0
+        },
+        {
+          "month_label": "2026-02",
+          "companies_with_complaints": 827,
+          "top1_complaint_pct": 34.4,
+          "top3_complaint_pct": 94.32,
+          "complaint_concentration_hhi": 2981.0
+        },
+        {
+          "month_label": "2026-03",
+          "companies_with_complaints": 850,
+          "top1_complaint_pct": 35.32,
+          "top3_complaint_pct": 96.0,
+          "complaint_concentration_hhi": 3089.0
+        },
+        {
+          "month_label": "2026-04",
+          "companies_with_complaints": 849,
+          "top1_complaint_pct": 36.52,
+          "top3_complaint_pct": 96.07,
+          "complaint_concentration_hhi": 3107.0
+        },
+        {
+          "month_label": "2026-05",
+          "companies_with_complaints": 822,
+          "top1_complaint_pct": 36.49,
+          "top3_complaint_pct": 96.31,
+          "complaint_concentration_hhi": 3122.0
+        },
+        {
+          "month_label": "2026-06",
+          "companies_with_complaints": 765,
+          "top1_complaint_pct": 36.22,
+          "top3_complaint_pct": 96.88,
+          "complaint_concentration_hhi": 3152.0
+        },
+        {
+          "month_label": "2026-07",
+          "companies_with_complaints": 791,
+          "top1_complaint_pct": 35.66,
+          "top3_complaint_pct": 97.01,
+          "complaint_concentration_hhi": 3154.0
+        },
+        {
+          "month_label": "2026-08",
+          "companies_with_complaints": 761,
+          "top1_complaint_pct": 35.51,
+          "top3_complaint_pct": 97.11,
+          "complaint_concentration_hhi": 3159.0
+        },
+        {
+          "month_label": "2026-09",
+          "companies_with_complaints": 714,
+          "top1_complaint_pct": 34.52,
+          "top3_complaint_pct": 97.25,
+          "complaint_concentration_hhi": 3160.0
+        },
+        {
+          "month_label": "2026-10",
+          "companies_with_complaints": 661,
+          "top1_complaint_pct": 36.77,
+          "top3_complaint_pct": 97.68,
+          "complaint_concentration_hhi": 3219.0
+        }
+      ]
+    },
+    {
+      "id": "Q2.3",
+      "file": "02_company_benchmarking.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q2.4",
+      "file": "02_company_benchmarking.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.1",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.2",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.3",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q3.4",
+      "file": "03_issue_trends.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q4.1",
+      "file": "04_geographic_distribution.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q4.2",
+      "file": "04_geographic_distribution.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q4.3",
+      "file": "04_geographic_distribution.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q5.1",
+      "file": "05_growth_drivers.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q5.2",
+      "file": "05_growth_drivers.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q5.3",
+      "file": "05_growth_drivers.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q5.4",
+      "file": "05_growth_drivers.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q6.1",
+      "file": "06_executive_scorecard.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    },
+    {
+      "id": "Q6.2",
+      "file": "06_executive_scorecard.sql",
+      "status": "NOT RUN",
+      "row_count": null,
+      "columns": [],
+      "checks": [],
+      "error": "not selected",
+      "preview": []
+    }
+  ]
+}
+
