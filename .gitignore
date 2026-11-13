@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Conda and virtual environments
+.venv/
+venv/
+.env
+
+# Secrets and credentials
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+.databrickscfg
+*token*.txt
+
+# Local datasets (all generated or downloaded data stays out of Git:
+# raw/bronze samples, bulk ZIP, API reference files, logs, checkpoints)
+data/
+
+# Defence in depth: data artefacts anywhere in the tree
+*.parquet
+*.zip
+*.part
+*.jsonl
+*.log
+_checkpoint.json
+*.meta.json
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
