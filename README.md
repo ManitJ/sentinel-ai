@@ -72,6 +72,18 @@ flowchart LR
     GOLD --> GEN --> VAL
     VAL -->|accepted + rejected, versioned| HIST
     HIST -->|current and verified only| PUB
+
+    classDef source fill:#DBEAFE,stroke:#2563EB,stroke-width:2px,color:#111827
+    classDef ingest fill:#D1FAE5,stroke:#059669,stroke-width:2px,color:#111827
+    classDef lakehouse fill:#EDE9FE,stroke:#7C3AED,stroke-width:2px,color:#111827
+    classDef ai fill:#FFEDD5,stroke:#EA580C,stroke-width:2px,color:#111827
+    classDef publish fill:#CCFBF1,stroke:#0D9488,stroke-width:2px,color:#111827
+
+    class API,BULK source
+    class ING,SAMP,REF ingest
+    class BRONZE,SILVER,REFT,GOLD lakehouse
+    class GEN,VAL ai
+    class HIST,PUB publish
 ```
 
 | Layer | Notebook | What it does |
