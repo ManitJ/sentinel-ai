@@ -1,0 +1,8 @@
+# Minimal dependencies for the offline test suite (used by CI).
+# Versions come from requirements.txt, applied as constraints so the two files cannot drift.
+-c requirements.txt
+numpy
+pandas
+pyarrow
+pytest
+requests

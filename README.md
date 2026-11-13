@@ -3,8 +3,9 @@
 Sentinel AI is an end-to-end data engineering project built on public
 **CFPB Consumer Complaint Database** records. It ingests credit-reporting
 complaints, builds a reproducible statistical sample, and turns it into a
-Bronze → Silver → Gold Delta Lake lakehouse on Databricks Free Edition, with
-analytics tables designed to feed evidence-grounded insights later.
+Bronze → Silver → Gold Delta Lake lakehouse on Databricks Free Edition, and
+generates monthly insights in which every published claim is validated against
+the Gold metrics it cites.
 
 The project runs at zero cost: public data, open-source Python, and
 Databricks Free Edition serverless compute.
@@ -16,10 +17,11 @@ Databricks Free Edition serverless compute.
 | CFPB API ingestion (pagination, retries, checkpoints, Parquet) | ✅ Implemented and tested |
 | Reproducible stratified sample from the CFPB bulk export | ✅ Implemented, validated against exact API counts |
 | Databricks Bronze, Silver and Gold layers (4 notebooks) | ✅ Implemented in Databricks Free Edition; Bronze, Silver and Gold builds each run twice (second run: 0 rows changed); reference tables loaded |
-| Offline test suite (no network access) | ✅ 210 tests |
+| Evidence-grounded monthly insights (template + `ai_query` with GPT-OSS-120B, deterministic validation) | ✅ Implemented; validated in Databricks: 22 published template reports and one published October 2026 LLM report (6 accepted claims); v1 outputs superseded, history kept |
+| Offline test suite (no network access) | ✅ 349 tests |
+| GitHub Actions CI | ✅ Workflow added (`.github/workflows/tests.yml`); first run happens on the next push |
 | SQL analysis of complaint trends | 🔜 Planned (Gold tables are ready to query) |
-| LLM-generated monthly insights with numerical verification | 🔜 Planned — **not implemented** |
-| GitHub Actions CI, architecture document, reproducible demo | 🔜 Planned |
+| Architecture document, reproducible demo | 🔜 Planned |
 
 ## Dataset
 
@@ -55,7 +57,13 @@ Databricks Free Edition (serverless, Delta Lake, workspace.sentinel)
   03 Ref     ref_cfpb_monthly_*       exact API population counts
   04 Gold    gold_* (10 tables)       exact volumes/breakdowns, weighted estimates with CIs,
                                       estimator calibration, LLM-ready fact table
+  05 Insights gold_llm_insights*      template / LLM claims validated against cited facts;
+                                      append-only history + *_published views
 ```
+
+Insight generation is documented in [`docs/llm_insights.md`](docs/llm_insights.md): what the
+model may see, the validation rules, provisional-month safeguards, and how published views differ
+from the historical base tables.
 
 **Gold tables:** monthly volume and growth; company, issue, state and response
 breakdowns (exact); company × response/timeliness and sub-issue estimates
@@ -73,22 +81,24 @@ pointer to its source row.
 
 ## Technologies
 
-Python 3.11 · pandas · PyArrow · requests · pytest · Databricks Free Edition ·
-PySpark · Delta Lake · Unity Catalog · SQL
+Python 3.11 · pandas · PyArrow · requests · pytest · GitHub Actions · Databricks Free Edition ·
+PySpark · Delta Lake · Unity Catalog · SQL · Databricks AI Functions (`ai_query`)
 
 ## Project structure
 
 ```
 sentinel-ai/
+├── .github/workflows/      tests.yml (CI: offline test suite)
 ├── src/
 │   ├── ingestion/          CFPB API client, windowed pipeline, checkpoints, bulk download,
 │   │                       stratified sampler, API benchmarks, CLI (python -m ingestion)
 │   └── lakehouse/          Silver and Gold reference rules, reference-data export
-├── databricks/notebooks/   01_bronze_ingest · 02_silver_transform ·
-│                           03_gold_reference_load · 04_gold_build
+├── databricks/notebooks/   01_bronze_ingest · 02_silver_transform · 03_gold_reference_load ·
+│                           04_gold_build · 05_llm_insights (+ lib_insights)
 ├── tests/                  offline unit tests (network access is blocked)
-├── docs/                   sampling method; Gold methodology
-├── requirements.txt
+├── docs/                   sampling method; Gold methodology; LLM insights
+├── requirements.txt        pinned environment
+├── requirements-test.txt   minimal test dependencies (versions from requirements.txt)
 └── pytest.ini
 ```
 
@@ -130,6 +140,25 @@ Measured on the development machine: bulk download 14.3 s, full scan and sample
    and the two files in `data/reference/upload/`.
 3. Import the four notebooks from `databricks/notebooks/` and run them in order on
    serverless compute. Each validates its inputs and outputs and can be rerun safely.
+
+## Testing and CI
+
+The test suite is fully offline: it uses synthetic data and fakes, and `tests/conftest.py`
+blocks network access, so no Databricks workspace, credentials, API access or model calls are
+needed. Spark notebook logic is covered through tested Python reference implementations and
+static checks of the notebook code.
+
+```bash
+pip install -r requirements-test.txt      # numpy, pandas, pyarrow, pytest, requests (pinned)
+python -m pytest -ra
+```
+
+Tests that need the local CFPB data files (kept out of Git) are skipped automatically when the
+files are absent, which is the case in CI.
+
+GitHub Actions (`.github/workflows/tests.yml`) runs the suite on Python 3.11 on GitHub-hosted
+Ubuntu runners for every push to `main` and every pull request targeting `main`, with read-only
+repository permissions and no secrets.
 
 ## License and data
 
